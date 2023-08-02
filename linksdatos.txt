@@ -1,0 +1,64 @@
+1. Net migration
+
+https://data.worldbank.org/indicator/SM.POP.NETM
+
+2. unemployment (total, male and female)
+
+https://data.worldbank.org/indicator/SL.UEM.TOTL.MA.NE.ZS
+https://data.worldbank.org/indicator/SL.UEM.TOTL.FE.NE.ZS
+https://data.worldbank.org/indicator/SL.UEM.TOTL.NE.ZS
+
+3. wage and salaried workers (Total, male and female)
+
+https://data.worldbank.org/indicator/SL.EMP.WORK.ZS
+https://data.worldbank.org/indicator/SL.EMP.WORK.MA.ZS
+https://data.worldbank.org/indicator/SL.EMP.WORK.FE.ZS
+
+4. tax over revenues
+
+https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS
+
+5. life expectancy
+
+https://ourworldindata.org/life-expectancy
+
+6. human rights index
+
+https://ourworldindata.org/human-rights
+
+7. homicide rates
+
+https://ourworldindata.org/homicides
+
+8. education spending
+
+https://ourworldindata.org/financing-education
+
+9. corruption perception index 2018
+
+https://ourworldindata.org/corruption
+
+10. perception of corruption by institution 
+
+https://ourworldindata.org/corruption
+
+11. quality of education 
+
+https://ourworldindata.org/quality-of-education
+
+12. inflation, consumer prices (annual %)
+
+https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
+
+13. GDP (constant LCU)
+
+https://data.worldbank.org/indicator/NY.GDP.MKTP.KN
+
+14. GDP per capita (constant LCU)
+
+https://data.worldbank.org/indicator/NY.GDP.PCAP.KN
+
+
+
+
+
