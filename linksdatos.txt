@@ -58,6 +58,18 @@ https://data.worldbank.org/indicator/NY.GDP.MKTP.KN
 
 https://data.worldbank.org/indicator/NY.GDP.PCAP.KN
 
+15. International migrant stock
+
+https://data.worldbank.org/indicator/SM.POP.TOTL
+
+16. Inflation, GDP deflator (annual %)
+
+https://data.worldbank.org/indicator/NY.GDP.DEFL.KD.ZG
+
+17. From Argentina to the world
+
+https://databank.worldbank.org/source/global-bilateral-migration#
+
 
 
 
