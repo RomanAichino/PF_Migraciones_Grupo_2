@@ -70,6 +70,20 @@ https://data.worldbank.org/indicator/NY.GDP.DEFL.KD.ZG
 
 https://databank.worldbank.org/source/global-bilateral-migration#
 
+18. Total population
+
+https://data.worldbank.org/indicator/SP.POP.TOTL?cid=ECR_GA_worldbank_EN_EXTP_search&gclid=Cj0KCQjwoK2mBhDzARIsADGbjer3yLKvpTdDswtTaLkI7lh8_C2rd8vSQP2m0pahRuBH83uMh15XQMsaAqohEALw_wcB&s_kwcid=AL%2118468%213%21665425039372%21b%21%21g%21%21what+does+the+world+bank+do
+
+19. Indice de desarrollo humano argentina
+
+https://datosmacro.expansion.com/idh/argentina
+
+20. Remesas
+
+https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS
+
+
+
 
 
 
