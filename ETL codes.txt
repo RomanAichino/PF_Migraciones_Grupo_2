@@ -1,0 +1,164 @@
+1. GDP PERCAPITA CURRENT LCU
+
+# Load data for ETL
+GDP_percapita_current = pd.read_csv('GDP per capita (current LCU).csv', sep=',', skiprows=4)
+
+#GDP_percapita_current.head(3)
+
+# Melt the DataFrame
+gdpPercapitaMelted = pd.melt(
+    GDP_percapita_current,
+    id_vars=['Country Name', 'Country Code', 'Indicator Name', 'Indicator Code'],
+    var_name='Year',
+    value_name='GDP Percapita Current LCU'
+)
+
+# We drop columns that we wont use and copy the new table
+gdpPercapitaMelted = gdpPercapitaMelted.drop(columns=['Indicator Name','Indicator Code'])
+
+# Order the table by country name first and second by year
+gdpPercapitaMelted = gdpPercapitaMelted.sort_values(by=['Country Name', 'Year'])
+
+# reset the index and drop former index
+gdpPercapitaMelted = gdpPercapitaMelted.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+gdpPercapitaMelted['Code'] = gdpPercapitaMelted['Country Code'] + gdpPercapitaMelted['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+gdpPercapitaMelted = gdpPercapitaMelted[['Code', 'Country Name', 'Year', 'GDP Percapita Current LCU']].copy()
+
+# Display the melted DataFrame
+gdpPercapitaMelted
+
+2. INFLATION DEFLATOR
+
+# Load data for ETL
+inflation_deflator = pd.read_csv('Inflation, GDP deflator (annual %).csv', sep=',', skiprows=4)
+
+#inflation_deflator.head(3)
+
+# Melt the DataFrame
+inflationMelted = pd.melt(
+    inflation_deflator,
+    id_vars=["Country Name", "Country Code", "Indicator Name", "Indicator Code"],
+    var_name="Year",
+    value_name="Inflation Deflator"
+)
+
+# We drop columns that we wont use and copy the new table
+inflationMelted = inflationMelted.drop(columns=['Indicator Name','Indicator Code'])
+
+# Order the table by country name first and second by year
+inflationMelted = inflationMelted.sort_values(by=['Country Name', 'Year'])
+
+# reset the index and drop former index
+inflationMelted = inflationMelted.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+inflationMelted['Code'] = inflationMelted['Country Code'] + inflationMelted['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+inflationMelted = inflationMelted[['Code', 'Country Name', 'Year', 'Inflation Deflator']].copy()
+
+# Display the melted DataFrame
+inflationMelted
+
+3. GDP CONSTANT LCU
+
+# Load data for ETL
+PBI_constant = pd.read_csv('PBI_constant_LCU.csv', sep=',', skiprows=4)
+
+#PBI_constant.head(3)
+
+# Melt the DataFrame
+PBI_constant = pd.melt(
+    PBI_constant,
+    id_vars=["Country Name", "Country Code", "Indicator Name", "Indicator Code"],
+    var_name="Year",
+    value_name="PBI Constant"
+)
+
+# We drop columns that we wont use and copy the new table
+PBI_constant = PBI_constant.drop(columns=['Indicator Name','Indicator Code'])
+
+# Order the table by country name first and second by year
+PBI_constant = PBI_constant.sort_values(by=['Country Name', 'Year'])
+
+# reset the index and drop former index
+PBI_constant = PBI_constant.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+PBI_constant['Code'] = PBI_constant['Country Code'] + PBI_constant['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+PBI_constant = PBI_constant[['Code', 'Country Name', 'Year', 'PBI Constant']].copy()
+
+# Display the melted DataFrame
+PBI_constant
+
+4. GDP PERCAPITA CONSTANT LCU
+
+# Load data for ETL
+PBI_percapita_constant_LCU = pd.read_csv('PBI_per_capita_constant_LCU.csv', sep=',', skiprows=4)
+
+#PBI_percapita_constant_LCU.head(3)
+
+# Melt the DataFrame
+PBI_percapita_constant_LCU = pd.melt(
+    PBI_percapita_constant_LCU,
+    id_vars=["Country Name", "Country Code", "Indicator Name", "Indicator Code"],
+    var_name="Year",
+    value_name="PBI Percapita Constant LCU"
+)
+
+# We drop columns that we wont use and copy the new table
+PBI_percapita_constant_LCU = PBI_percapita_constant_LCU.drop(columns=['Indicator Name','Indicator Code']).copy()
+
+# Order the table by country name first and second by year
+PBI_percapita_constant_LCU = PBI_percapita_constant_LCU.sort_values(by=['Country Name', 'Year']).copy()
+
+# reset the index and drop former index
+PBI_percapita_constant_LCU = PBI_percapita_constant_LCU.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+PBI_percapita_constant_LCU['Code'] = PBI_percapita_constant_LCU['Country Code'] + PBI_percapita_constant_LCU['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+PBI_percapita_constant_LCU = PBI_percapita_constant_LCU[['Code', 'Country Name', 'Year', 'PBI Percapita Constant LCU']].copy()
+
+# Display the melted DataFrame
+PBI_percapita_constant_LCU
+
+5. PERSONAL REMITTANCES RECEIVED
+
+# Load data for ETL
+personal_remittances_received = pd.read_csv('Personal remittances, received (% of GDP).csv', sep=',', skiprows=4)
+
+#personal_remittances_received.head(3)
+
+# Melt the DataFrame
+personal_remittances_received = pd.melt(
+    personal_remittances_received,
+    id_vars=["Country Name", "Country Code", "Indicator Name", "Indicator Code"],
+    var_name="Year",
+    value_name="Personal Remittances Received"
+)
+
+# We drop columns that we wont use and copy the new table
+personal_remittances_received = personal_remittances_received.drop(columns=['Indicator Name','Indicator Code']).copy()
+
+# Order the table by country name first and second by year
+personal_remittances_received = personal_remittances_received.sort_values(by=['Country Name', 'Year']).copy()
+
+# reset the index and drop former index
+personal_remittances_received = personal_remittances_received.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+personal_remittances_received['Code'] = personal_remittances_received['Country Code'] + personal_remittances_received['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+personal_remittances_received = personal_remittances_received[['Code', 'Country Name', 'Year', 'Personal Remittances Received']].copy()
+
+# Display the melted DataFrame
+personal_remittances_received
