@@ -8,19 +8,25 @@ GDP_percapita_current = pd.read_csv('GDP per capita (current LCU).csv', sep=',',
 # Melt the DataFrame
 gdpPercapitaMelted = pd.melt(
     GDP_percapita_current,
-    id_vars=["Country Name", "Country Code", "Indicator Name", "Indicator Code"],
-    var_name="Year",
-    value_name="GDP Percapita Current LCU"
+    id_vars=['Country Name', 'Country Code', 'Indicator Name', 'Indicator Code'],
+    var_name='Year',
+    value_name='GDP Percapita Current LCU'
 )
 
 # We drop columns that we wont use and copy the new table
-gdpPercapitaMelted = gdpPercapitaMelted.drop(columns=['Indicator Name','Indicator Code']).copy()
+gdpPercapitaMelted = gdpPercapitaMelted.drop(columns=['Indicator Name','Indicator Code'])
 
 # Order the table by country name first and second by year
-gdpPercapitaMelted = gdpPercapitaMelted.sort_values(by=['Country Name', 'Year']).copy()
+gdpPercapitaMelted = gdpPercapitaMelted.sort_values(by=['Country Name', 'Year'])
 
 # reset the index and drop former index
 gdpPercapitaMelted = gdpPercapitaMelted.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+gdpPercapitaMelted['Code'] = gdpPercapitaMelted['Country Code'] + gdpPercapitaMelted['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+gdpPercapitaMelted = gdpPercapitaMelted[['Code', 'Country Name', 'Year', 'GDP Percapita Current LCU']].copy()
 
 # Display the melted DataFrame
 gdpPercapitaMelted
@@ -41,13 +47,19 @@ inflationMelted = pd.melt(
 )
 
 # We drop columns that we wont use and copy the new table
-inflationMelted = inflationMelted.drop(columns=['Indicator Name','Indicator Code']).copy()
+inflationMelted = inflationMelted.drop(columns=['Indicator Name','Indicator Code'])
 
 # Order the table by country name first and second by year
-inflationMelted = inflationMelted.sort_values(by=['Country Name', 'Year']).copy()
+inflationMelted = inflationMelted.sort_values(by=['Country Name', 'Year'])
 
 # reset the index and drop former index
 inflationMelted = inflationMelted.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+inflationMelted['Code'] = inflationMelted['Country Code'] + inflationMelted['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+inflationMelted = inflationMelted[['Code', 'Country Name', 'Year', 'Inflation Deflator']].copy()
 
 # Display the melted DataFrame
 inflationMelted
@@ -68,13 +80,19 @@ PBI_constant = pd.melt(
 )
 
 # We drop columns that we wont use and copy the new table
-PBI_constant = PBI_constant.drop(columns=['Indicator Name','Indicator Code']).copy()
+PBI_constant = PBI_constant.drop(columns=['Indicator Name','Indicator Code'])
 
 # Order the table by country name first and second by year
-PBI_constant = PBI_constant.sort_values(by=['Country Name', 'Year']).copy()
+PBI_constant = PBI_constant.sort_values(by=['Country Name', 'Year'])
 
 # reset the index and drop former index
 PBI_constant = PBI_constant.reset_index(drop=True)
+
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+PBI_constant['Code'] = PBI_constant['Country Code'] + PBI_constant['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+PBI_constant = PBI_constant[['Code', 'Country Name', 'Year', 'PBI Constant']].copy()
 
 # Display the melted DataFrame
 PBI_constant
@@ -103,6 +121,12 @@ PBI_percapita_constant_LCU = PBI_percapita_constant_LCU.sort_values(by=['Country
 # reset the index and drop former index
 PBI_percapita_constant_LCU = PBI_percapita_constant_LCU.reset_index(drop=True)
 
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+PBI_percapita_constant_LCU['Code'] = PBI_percapita_constant_LCU['Country Code'] + PBI_percapita_constant_LCU['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+PBI_percapita_constant_LCU = PBI_percapita_constant_LCU[['Code', 'Country Name', 'Year', 'PBI Percapita Constant LCU']].copy()
+
 # Display the melted DataFrame
 PBI_percapita_constant_LCU
 
@@ -130,5 +154,11 @@ personal_remittances_received = personal_remittances_received.sort_values(by=['C
 # reset the index and drop former index
 personal_remittances_received = personal_remittances_received.reset_index(drop=True)
 
+# Combine 'Country Code' and 'Year' columns to create a new column 'Code'
+personal_remittances_received['Code'] = personal_remittances_received['Country Code'] + personal_remittances_received['Year'].astype(str)
+
+# Reorder columns and drop 'Country Code' column
+personal_remittances_received = personal_remittances_received[['Code', 'Country Name', 'Year', 'Personal Remittances Received']].copy()
+
 # Display the melted DataFrame
-personal_remittances_received 
+personal_remittances_received
