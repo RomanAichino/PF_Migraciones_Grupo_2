@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.post("/predict_migration/")
 def predict_migration():
-    data = pd.read_csv('render/datos.csv')  # Update the URL
+    data = pd.read_csv('datos.csv')  # Update the URL
     argentina_data = data[data['country'] == 'Argentina']
     
     feature = 'Unemployment_Total_of_Total_Labor_Force'
