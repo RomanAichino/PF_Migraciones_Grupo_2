@@ -2,6 +2,7 @@
 <p align="center">
    <img width="700" height="400" src="img/portada3.jpg">
    </p>
+   
 
 *Proyecto desarrollado en Henry por:*
 
@@ -16,6 +17,18 @@
 | Castillo Monserrat  | [@kmonse98](https://github.com/kmonse98)   |<img width="30" height="20" src="img/Flag_of_Mexico.png">
 
 </div>
+
+# Tabla de contenidos
+* [Introducción](#Introducción)
+
+* [Objetivos](#Objetivos)
+
+* [Producto final](#Producto-final)
+
+* [Deployment](#Deployment)
+
+
+
 
 # Introducción
  
@@ -46,6 +59,10 @@ Para afrontar este desafío nos hemos planteado los siguientes objetivos.
 * Afianzar y perfeccionar conocimientos aprendidos en la carrera de Data Science.
 # Producto final 
 Como resultado de nuestro trabajo, hemos desarrollado un Modelo de Predicción que hemos implementado en Render. Tanto los Product Owners de la empresa como el público en general tienen la capacidad de acceder a esta plataforma para obtener predicciones actualizadas sobre los flujos migratorios en Argentina. Además, hemos creado un dashboard que proporciona una descripción detallada de la situación migratoria actual. Este recurso es de gran utilidad para el gobierno, ya que les brinda información valiosa sobre las áreas en las que deben enfocarse para abordar y revertir los desafíos asociados a los flujos migratorios.
+
+# Deployment
+
+En el siguiente [link](https://machinelearning-nnfl.onrender.com/docs) pueden encontrar el desarrollo de nuestro Modelo para el año 2023.
 
 
 
