@@ -2,6 +2,7 @@
 <p align="center">
    <img width="700" height="400" src="img/portada3.jpg">
    </p>
+
 *Proyecto desarrollado en Henry por:*
 
 <div align="center">
