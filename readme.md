@@ -15,5 +15,9 @@
 | Jeffer Max        |[@M21x1](https://github.com/M21x1)           |	<img width="30" height="20" src="img/Peru_bandera.png">
 | Castillo Monserrat  | [@kmonse98](https://github.com/kmonse98)   |<img width="30" height="20" src="img/Flag_of_Mexico.png">
 </div>
+# Introducción
+ 
+## Contexto 
+Desde mediados del siglo pasado, Argentina ha experimentado un importante aumento en los flujos migratorios. Esto se debe a una variedad de razones, como la inestabilidad económica, la violencia y el aumento de la inflación. Este fenómeno ha generado una serie de desafíos y oportunidades tanto para la sociedad argentina de acogida como para los propios migrantes.
 
 
