@@ -12,7 +12,7 @@
 |:-----------:|:-----------:|:-----------:|
 | Babsia Santiago   | [@Babsia](https://github.com/Babsia)   |	<img width="30" height="20" src="img/icono-plano-del-cuadrado-vector-de-la-bandera-argentina-102753340.png">
 | Aichino Roman          |  [@RomanAichino](https://github.com/RomanAichino)         |<img width="30" height="20" src="img/icono-plano-del-cuadrado-vector-de-la-bandera-argentina-102753340.png">
-| Giuffrida Gabriel | [@Gabrielghj](https://github.com/Gabrielghj)   |<img width="35" height="20" src="img/icono-plano-del-cuadrado-vector-de-la-bandera-argentina-102753340.png">
+| Giuffrida Gabriel | [@Gabrielghj](https://github.com/Gabrielghj)   |<img width="30" height="20" src="img/icono-plano-del-cuadrado-vector-de-la-bandera-argentina-102753340.png">
 | Jeffer Max        |[@M21x1](https://github.com/M21x1)           |	<img width="30" height="20" src="img/Peru_bandera.png">
 | Castillo Monserrat  | [@kmonse98](https://github.com/kmonse98)   |<img width="30" height="20" src="img/Flag_of_Mexico.png">
 
