@@ -26,6 +26,29 @@ Desde mediados del siglo pasado, Argentina ha experimentado un importante aument
 
 El Gobierno de la Republica Argentina se ha contactado con nuestra empresa de consultoria **GMMRS CONSULTING**, con el fin de estudiar los flujos migratorios de Argentina y mostrar las principales estadísticas.
 
+# Objetivos
+
+Para afrontar este desafío nos hemos planteado los siguientes objetivos.
+## General
+
+* Implementar un pipeline que permita explorar, analizar y predecir los flujos migratorios. 
+
+## Específicos
+* Diseñar un pipeline que permita monitorear el ciclo completo de los datos de flujos de migración en Argentina del año 19XX al 2022. 
+* Desarrollar procesos automatizados en carga de datos y procesamientos intermedios para el análisis estadístico, visualizaciones y machine learning.
+* Producir una base de datos para realizar análisis estadístico, visualizaciones y machine learning.
+* Comprender el comportamiento o mecánica de los flujos migratorios.
+* Brindar KPIs útiles para entender el fenómeno y tener una idea de control para tomar decisiones.
+## Específicos del grupo
+* Conocer el uso de tecnologías para implementar y diseñar pipelines.
+* Fortalecer las habilidades técnicas de automatización de subprocesos en pipeline.
+* Fortalecer las habilidades blandas y de comunicación bajo presión.
+* Afianzar y perfeccionar conocimientos aprendidos en la carrera de Data Science.
+
+
+
+
+
 
 
 
