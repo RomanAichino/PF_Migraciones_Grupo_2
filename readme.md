@@ -62,7 +62,7 @@ Como resultado de nuestro trabajo, hemos desarrollado un Modelo de Predicción q
 
 # Deployment
 
-En el siguiente [link](https://machinelearning-nnfl.onrender.com/docs) pueden encontrar el desarrollo de nuestro Modelo para el año 2023.
+En el siguiente [link](https://machinelearning-nnfl.onrender.com/docs) pueden encontrar el desarrollo de nuestro Modelo de Prediccion para el año 2023.
 
 
 
