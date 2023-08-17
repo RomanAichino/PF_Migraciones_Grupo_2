@@ -19,13 +19,13 @@
 </div>
 
 # Tabla de contenidos
-* [Introducción](#Introducción)
+* [Introducción](#introducción)
 
-* [Objetivos](#Objetivos)
+* [Objetivos](#objetivos)
 
-* [Producto final](#Producto-final)
+* [Producto final](#producto-final)
 
-* [Deployment](#Deployment)
+* [Deployment](#deployment)
 
 
 
