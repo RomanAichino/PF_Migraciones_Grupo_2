@@ -44,6 +44,14 @@ Para afrontar este desafío nos hemos planteado los siguientes objetivos.
 * Fortalecer las habilidades técnicas de automatización de subprocesos en pipeline.
 * Fortalecer las habilidades blandas y de comunicación bajo presión.
 * Afianzar y perfeccionar conocimientos aprendidos en la carrera de Data Science.
+# Producto final 
+Como resultado de nuestro trabajo, hemos desarrollado un Modelo de Predicción que hemos implementado en Render. Tanto los Product Owners de la empresa como el público en general tienen la capacidad de acceder a esta plataforma para obtener predicciones actualizadas sobre los flujos migratorios en Argentina. Además, hemos creado un dashboard que proporciona una descripción detallada de la situación migratoria actual. Este recurso es de gran utilidad para el gobierno, ya que les brinda información valiosa sobre las áreas en las que deben enfocarse para abordar y revertir los desafíos asociados a los flujos migratorios.
+
+
+
+
+
+
 
 
 
