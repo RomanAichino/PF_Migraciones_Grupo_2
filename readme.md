@@ -22,4 +22,10 @@
 ## Contexto 
 Desde mediados del siglo pasado, Argentina ha experimentado un importante aumento en los flujos migratorios. Esto se debe a una variedad de razones, como la inestabilidad económica, la violencia y el aumento de la inflación. Este fenómeno ha generado una serie de desafíos y oportunidades tanto para la sociedad argentina de acogida como para los propios migrantes.
 
+## Rol a desarrollar
+
+El Gobierno de la Republica Argentina se ha contactado con nuestra empresa de consultoria **GMMRS CONSULTING**, con el fin de estudiar los flujos migratorios de Argentina y mostrar las principales estadísticas.
+
+
+
 
