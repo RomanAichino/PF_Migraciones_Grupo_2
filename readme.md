@@ -47,7 +47,7 @@ Para afrontar este desafío nos hemos planteado los siguientes objetivos.
 * Implementar un pipeline que permita explorar, analizar y predecir los flujos migratorios. 
 
 ## Específicos
-* Diseñar un pipeline que permita monitorear el ciclo completo de los datos de flujos de migración en Argentina del año 19XX al 2022. 
+* Diseñar un pipeline que permita monitorear el ciclo completo de los datos de flujos de migración en Argentina del año 1960 al 2022. 
 * Desarrollar procesos automatizados en carga de datos y procesamientos intermedios para el análisis estadístico, visualizaciones y machine learning.
 * Producir una base de datos para realizar análisis estadístico, visualizaciones y machine learning.
 * Comprender el comportamiento o mecánica de los flujos migratorios.
