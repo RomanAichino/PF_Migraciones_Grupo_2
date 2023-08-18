@@ -1,0 +1,13 @@
+Este es un pequeño registro de lo que fuimos haciendo día a día durante el transcurso de todo el proyecto.
+
+SEMANA 3:
+
+Lunes: hicimos un pequeño arreglo de una funcion, ya que no almacenaba las tablas por fecha de actualización, sino que se reemplazaba constantemente por la ya existente. Luego nos dividimos los KPIs para realizar gráficos mas detallados de cada uno y así posteriormente juntarlos.
+
+Martes: Seguimos con los KPIs y empezamos a realizar un modelo predictivo con Machine Learning, el cual deberá predecir las futuras olas migratorias en Argentina. Además, empezamos a preparar la documentación del proyecto.
+
+Miercoles: Seguimos con los KPIs, terminamos el modelo predictivo, seguimos con la documentación y preparamos el repositorio.
+
+Jueves: Terminamos los KPIs, colgamos en render el modelo predictivo, terminamos la documentación, concluimos la presentación y organizamos el repositorio para que no queden mas modificaciones por realizarle.
+	
+Viernes: Presentación.
