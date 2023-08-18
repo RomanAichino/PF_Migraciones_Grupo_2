@@ -1,0 +1,13 @@
+Este es un pequeño registro de lo que fuimos haciendo día a día durante el transcurso de todo el proyecto.
+
+SEMANA 2:
+
+Lunes: conseguimos crear una función en Cloud Functios para que lea un archivo .csv de un bucket y lo almacene en otro aplicándole un pequeño ETL. Además, determinamos cuales datasets íbamos a utilizar de todos los que teníamos y los que no servían los eliminamos.
+
+Martes: nos organizamos para que 4 integrantes se dividan los datasets para hacer sus ETLs y enviárselo al quinto para comience a unir todo en una función, así, al haber un cambio en el bucket de los datasets en bruto se activaría, limpiaría todos los datasets y los enviaría a otro bucket.
+
+Miércoles: terminamos la función del martes y comenzamos otra que posteriormente cargue automáticamente esos datasets con forma de tabla en BigQuery. También, empezamos a hacer tablas de hechos y tablas relacionales. Además, iniciamos una API para la carga incremental de datos. Finalizando el día, un compañero eliminó un bucket que contenía los archivos main.py y requeriments.txt de todas las funciones, y perdimos bastante progreso.
+
+Jueves: recuperamos algunas cosas, creamos una función que hace de API y ETL al mismo tiempo para almacenarlo en un dataset en un bucket, y luego otra que toma ese dataset y lo traslada a BigQuery en forma de tabla. Además, le dimos un cierre provisorio a los KPI y terminamos las tablas de hechos y dimensiones.
+
+Viernes: Presentación.
